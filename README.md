@@ -1,6 +1,8 @@
 # Gender Prediction Myth Buster
+<img width="1919" height="821" alt="Screenshot 2025-11-21 172748" src="https://github.com/user-attachments/assets/409cb78a-c68e-441f-b120-f62ed3fd232f" />
+<img width="1919" height="822" alt="Screenshot 2025-11-21 172824" src="https://github.com/user-attachments/assets/7bcbb770-81a7-4f7c-9cad-9a9214682655" />
+<img width="1919" height="819" alt="Screenshot 2025-11-21 172854" src="https://github.com/user-attachments/assets/2cd56183-744d-4615-bf17-70a8753e6ce9" />
 
-Short project that hosts a trained model to (de)validate pregnancy gender myths. The repository contains a FastAPI server that serves a simple web UI and an API endpoint which uses a serialized model to predict a baby gender label.
 
 **Repository layout**
 - `server/` — FastAPI app and templates (`server.py`, `templates/app.html`).
