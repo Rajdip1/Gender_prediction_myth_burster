@@ -1,0 +1,108 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+    background: linear-gradient(135deg, #fcd8dd, #c7eaff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center Card */
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Form Style */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    border-color: #7b9eff;
+    outline: none;
+    box-shadow: 0 0 5px #76a5ff80;
+}
+
+button {
+    background: #7b9eff;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #527eff;
+    transform: scale(1.03);
+}
+
+/* Result box */
+.result {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+/* Baby Boy / Girl colors */
+.boy {
+    color: #4da3ff;
+}
+
+.girl {
+    color: #ff7db3;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    color: #777;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
