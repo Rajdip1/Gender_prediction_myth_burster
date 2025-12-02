@@ -1,4 +1,7 @@
 # Gender Prediction Myth Buster
+•	Developed a supervised ML classification model using pregnancy-related features with preprocessing, feature selection, and model evaluation.
+	Achieved 50.49% prediction accuracy after testing multiple classifiers and finalized a reusable trained pipeline.
+
 <img width="1919" height="821" alt="Screenshot 2025-11-21 172748" src="https://github.com/user-attachments/assets/409cb78a-c68e-441f-b120-f62ed3fd232f" />
 <img width="1919" height="822" alt="Screenshot 2025-11-21 172824" src="https://github.com/user-attachments/assets/7bcbb770-81a7-4f7c-9cad-9a9214682655" />
 <img width="1919" height="819" alt="Screenshot 2025-11-21 172854" src="https://github.com/user-attachments/assets/2cd56183-744d-4615-bf17-70a8753e6ce9" />
