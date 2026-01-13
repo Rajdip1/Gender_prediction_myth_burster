@@ -74,7 +74,7 @@ Open `http://127.0.0.1:8000/` in your browser to view the app.
 
 This application is deployed using **Render Free Web Service**.
 **Build Command**
-`bash
+``bash
 pip install -r requirements.txt
 
 ## Disclaimer
