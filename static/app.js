@@ -20,20 +20,20 @@ form.addEventListener("submit", async (e) => {
     };
 
     try {
-        const response = await fetch("http://127.0.0.1:8000/predict", {
+        const response = await fetch("/predict", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload),
         });
 
         const data = await response.json();
-        const gender = data.predicted_gender || data.gender_prediction || data.predicted_gender_value;
+        const gender = data.predicted_gender;
 
         resultEl.className = "result " + (gender === "Girl" ? "girl" : "boy");
         resultEl.textContent = `🍼 Result: ${gender}`;
 
     } catch (err) {
-        resultEl.textContent = "❌ Server error — is FastAPI running?";
+        resultEl.textContent = "❌ Server error";
         resultEl.style.color = "red";
     }
 
