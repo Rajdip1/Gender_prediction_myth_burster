@@ -73,9 +73,8 @@ Open `http://127.0.0.1:8000/` in your browser to view the app.
 ## Deployment (Render)
 
 This application is deployed using **Render Free Web Service**.
-
 **Build Command**
-```bash
+`bash
 pip install -r requirements.txt
 
 ## Disclaimer
@@ -83,5 +82,3 @@ pip install -r requirements.txt
 This project is **not a medical tool**.
 It intentionally demonstrates that predicting a baby's gender using non-medical,
 behavioral, or lifestyle features performs no better than random chance.
-
-
