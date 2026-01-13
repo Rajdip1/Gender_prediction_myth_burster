@@ -1,4 +1,7 @@
 # Gender Prediction Myth Buster
+🌐 **Live Demo:** https://gender-prediction-myth-burster.onrender.com  
+⚠️ Free-tier hosting: first request may take ~30–60 seconds due to cold start.
+
 Developed a supervised ML classification model using pregnancy-related features with preprocessing, feature selection, and model evaluation.
 Achieved 50.49% prediction accuracy and ROC-AUC score 0.5374 after testing multiple classifiers and finalized a reusable trained pipeline.
 
@@ -67,5 +70,15 @@ Open `http://127.0.0.1:8000/` in your browser to view the app.
 **Development**
 - The notebook `model/pregnancy_gender_myth.ipynb` contains the exploratory work and model training steps. Re-train or inspect there if you want to rebuild the serialized model.
 
-**License / Attribution**
-- No license file included. Check with the project owner before redistributing.
+## Deployment (Render)
+
+This application is deployed using **Render Free Web Service**.
+**Build Command**
+``bash
+pip install -r requirements.txt
+
+## Disclaimer
+
+This project is **not a medical tool**.
+It intentionally demonstrates that predicting a baby's gender using non-medical,
+behavioral, or lifestyle features performs no better than random chance.
