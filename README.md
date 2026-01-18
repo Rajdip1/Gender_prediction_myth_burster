@@ -82,3 +82,7 @@ pip install -r requirements.txt
 This project is **not a medical tool**.
 It intentionally demonstrates that predicting a baby's gender using non-medical,
 behavioral, or lifestyle features performs no better than random chance.
+
+## 📜 License
+
+MIT License
