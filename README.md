@@ -86,3 +86,8 @@ behavioral, or lifestyle features performs no better than random chance.
 ## 📜 License
 
 MIT License
+
+## 👤 Author
+**Rajdip**
+
+If you found this project useful, feel free to ⭐ the repository.
